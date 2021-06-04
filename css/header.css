@@ -1,0 +1,69 @@
+header{
+    background-color:rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+/* logo css starts here */
+#M {
+    background-color: rgb(255, 108, 48);
+    font-family: "Script MT", cursive;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 4px;
+    text-transform: capitalize;
+}
+
+sup{
+    font-size:12px;
+    color: rgb(255, 108, 48);
+    margin-bottom:10px;
+}
+/* logo css ends here */
+
+
+.navbar a{
+    color: white;
+}
+
+.nav-item.active a{
+    color:rgb(255, 108, 48);
+}
+
+.dropdown-menu {
+    background-color: rgb(0,0,0);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    min-width: 250px;
+    padding: 10px 2px;
+    position: absolute;
+    right: 0;
+    top: 38px;
+}
+
+.dropdown-menu li{
+    width: 100%;
+    text-align: left;              
+}
+
+.nav-link:hover{
+    color: rgb(255, 108, 48);
+}
+
+.nav-link :after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: rgb(255, 108, 48);
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    opacity: 0;
+}
+
+.nav-link:hover :after {
+    opacity: 1;
+}
+
