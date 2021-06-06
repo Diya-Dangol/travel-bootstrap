@@ -5,7 +5,7 @@
 
 .carousel-caption{
     position: absolute;
-    bottom: 15%;
+    /* bottom: 15%; */
 }
 
 .carousel-caption .mainHeading{
@@ -22,7 +22,7 @@
 
 .form-group {
     display: inline-block;
-    left: 20px;
+    /* left: 20px; */
     place-content: center;
 }
 
@@ -131,6 +131,23 @@
         transform: translateY(200%);
         opacity: 1;}
 }
+
+@media only screen and (max-width: 900px) {
+    .carousel-caption .mainHeading {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .mainHeading .label {
+        font-size: 14px;
+    }
+}
+
 
 
 

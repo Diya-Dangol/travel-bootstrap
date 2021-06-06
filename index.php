@@ -10,55 +10,61 @@
             <li data-target="#slides" data-slide-to="2"></li>
         </ul>
         <div class="carousel-inner">
-            <div class="carousel-caption">
-                <div class="mainHeading">
-                    <h1>Never Stop Exploring</h1>
-                    <label>Grab Your bag Packs and Enjoy Holidays</label>
+            
+            <div class="carousel-caption">                    
+                <div class="container">                
+                    <div class="mainHeading">
+                        <h1>Never Stop Exploring</h1>
+                        <label>Grab Your bag Packs and Enjoy Holidays</label>
+                    </div>
+                    <form action="/nepal.php"  class="row bg-light">
+                        <!-- <div class="row"> -->
+                            <div class="form-group col-md-2 col-sm-6 col-xs-4 my-auto pr-0 pl-0 text-dark">
+                                <p class='my-auto'>Want to travel with us?</p>
+                            </div>
+                            <div class="form-group col-md-2 col-sm-6 col-xs-4 my-auto">
+                                <select name="location" class="form-control">
+                                    <option value>where to go</option>
+                                    <option value="nepal">Nepal</option>
+                                    <option value="america">America</option>
+                                    <option value="south-africa">South Africa</option>
+                                    <option value="india">India</option>
+                                    <option value="oceana">Nepal</option>
+                                    <option value="nepal">Nepal</option>
+                                    <option value="nepal">Nepal</option>
+                                    <option value="nepal">Nepal</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2 col-sm-6 col-xs-4 my-auto">
+                                <input type="date" class="form-control" id="date" name="date" placeholder="date" value="date">
+                            </div>
+            
+                            <div class="form-group col-md-2 col-sm-6 col-xs-4 my-auto">
+                                <select name="travel-type" class="form-control">
+                                    <option value>Travel Type</option>
+                                    <option value="city-tour">city tour</option>
+                                    <option value="adventour-tour">adventour tour</option>
+                                    <option value="couple-tour">couple tour</option>
+                                    <option value="group-tour">group tour</option>                        
+                                </select>
+                            </div>
+            
+                            <div class="form-group col-md-2 col-sm-6 col-xs-4 pr-0 pl-0" >
+                                <div class="form-control" style="border: none; background: none;">
+                                    <label class="text-dark">Price Range</label>
+                                    <section class="range-slider">
+                                        <span class="rangeValues"></span>
+                                        <input value="500" min="500" max="50000" step="500" type="range">
+                                        <input value="50000" min="500" max="50000" step="500" type="range">
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-2 col-sm-6 col-xs-4 mt-xs-5 my-auto">
+                                <a href="#" class="btn btn-primary">Search <i class="fa fa-search"></i></a>    
+                            </div>
+                        <!-- </div>         -->
+                    </form>
                 </div>
-                <form action="/nepal.php"  class="form-inline bg-light">
-                    <div class="form-group mb-2 text-dark">
-                        <p class='m-auto'>Want To Travel With Us?</p>
-                    </div>
-                    <div class="form-group mx-2 mb-2">
-                        <select name="location" class="form-control">
-                            <option value>where to go</option>
-                            <option value="nepal">Nepal</option>
-                            <option value="america">America</option>
-                            <option value="south-africa">South Africa</option>
-                            <option value="india">India</option>
-                            <option value="oceana">Nepal</option>
-                            <option value="nepal">Nepal</option>
-                            <option value="nepal">Nepal</option>
-                            <option value="nepal">Nepal</option>
-                        </select>
-                    </div>
-                    <div class="form-group mx-2 mb-2">
-                        <input type="date" class="form-control" id="date" name="date" placeholder="date" value="date">
-                    </div>
-    
-                    <div class="form-group mx-2 mb-2">
-                        <select name="travel-type" class="form-control">
-                            <option value>Travel Type</option>
-                            <option value="city-tour">city tour</option>
-                            <option value="adventour-tour">adventour tour</option>
-                            <option value="couple-tour">couple tour</option>
-                            <option value="group-tour">group tour</option>                        
-                        </select>
-                    </div>
-    
-                    <div class="form-group mx-2 mb-2 mb-sm-4" >
-                        <div class="form-control" style="border: none; background: none;">
-                            <label class="text-dark">Price Range</label>
-                            <section class="range-slider">
-                                <span class="rangeValues"></span>
-                                <input value="500" min="500" max="50000" step="500" type="range">
-                                <input value="50000" min="500" max="50000" step="500" type="range">
-                            </section>
-                        </div>
-                    </div>
-    
-                    <a href="#" class="btn btn-primary">Search <i class="fa fa-search"></i></a>            
-                </form>
             </div>
             <div class="carousel-item active">
                 <img src ="assets/sanjay-hona.jpg" class="back-overlay">  
